@@ -38,9 +38,7 @@ public class StudentServiceGUI extends JFrame {
         setLayout(new BorderLayout(10, 10));
 
 
-        // =====================================
         // STUDENT DETAILS
-        // =====================================
 
         JPanel studentPanel =
                 new JPanel(new GridLayout(4, 2, 10, 10));
@@ -69,9 +67,7 @@ public class StudentServiceGUI extends JFrame {
         add(studentPanel, BorderLayout.NORTH);
 
 
-        // =====================================
         // SERVICE REQUEST
-        // =====================================
 
         JPanel requestPanel = new JPanel();
 
@@ -128,9 +124,7 @@ public class StudentServiceGUI extends JFrame {
         add(requestPanel, BorderLayout.CENTER);
 
 
-        // =====================================
         // SEARCH AND UPDATE
-        // =====================================
 
         JPanel bottomPanel = new JPanel();
 
@@ -200,9 +194,7 @@ public class StudentServiceGUI extends JFrame {
         add(bottomPanel, BorderLayout.SOUTH);
 
 
-        // =====================================
         // SUBMIT REQUEST BUTTON
-        // =====================================
 
         submitButton.addActionListener(e -> {
 
@@ -340,9 +332,7 @@ public class StudentServiceGUI extends JFrame {
         });
 
 
-        // =====================================
         // SEARCH BUTTON
-        // =====================================
 
         searchButton.addActionListener(e -> {
 
@@ -401,9 +391,7 @@ public class StudentServiceGUI extends JFrame {
         });
 
 
-        // =====================================
         // UPDATE STATUS BUTTON
-        // =====================================
 
         updateStatusButton.addActionListener(e -> {
 
@@ -458,9 +446,7 @@ public class StudentServiceGUI extends JFrame {
     }
 
 
-    // =====================================
     // DISPLAY REQUEST METHOD
-    // =====================================
 
     private void displayRequest(
             ServiceRequest request) {
@@ -508,9 +494,7 @@ public class StudentServiceGUI extends JFrame {
     }
 
 
-    // =====================================
     // MAIN METHOD
-    // =====================================
 
     public static void main(String[] args) {
 
